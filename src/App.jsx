@@ -168,7 +168,11 @@ export default function App() {
             responsive web experiences. I also enjoy exploring AI and machine
             learning and strengthening my foundations in programming and problem-solving.
           </p>
-          <a className="resume-button" href="/Nitish-Kumar-Resume.pdf" download>
+          <a
+            className="resume-button"
+            href={`${import.meta.env.BASE_URL}Nitish-Kumar-Resume.pdf`}
+            download
+          >
             Download my resume <span aria-hidden="true">↓</span>
           </a>
         </div>
